@@ -60,7 +60,7 @@ Member_Management_System/
 
 ### 📋 Members List
 
-![Members List](member_management/screenshots/members-list.png)
+![Members List](member_management/screenshots/member-list.png)
 
 ---
 
