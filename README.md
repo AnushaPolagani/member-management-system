@@ -60,19 +60,19 @@ Member_Management_System/
 
 ### 📋 Members List
 
-![Members List](screenshots/members-list.png)
+![Members List](member_management/screenshots/members-list.png)
 
 ---
 
 ### ➕ Add Member
 
-![Add Member](screenshots/add-member.png)
+![Add Member](member_management/screenshots/add-member.png)
 
 ---
 
 ### ✅ Duplicate Validation
 
-![Duplicate Validation](screenshots/duplicate-validation.png)
+![Duplicate Validation](member_management/screenshots/duplicate-validation.png)
 
 ---
 
