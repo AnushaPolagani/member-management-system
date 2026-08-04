@@ -50,15 +50,24 @@ This project demonstrates Django fundamentals including models, forms, views, te
 projectname/
 │
 ├── Member_Management_System/
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+│
 ├── member_management/
 │   ├── migrations/
 │   ├── screenshots/
+│   │   ├── member-list.png
+│   │   ├── add-member.png
+│   │   └── duplicate-validation.png
 │   ├── templates/
 │   ├── admin.py
 │   ├── forms.py
 │   ├── models.py
 │   ├── urls.py
-│   └── views.py
+│   ├── views.py
+│   └── __init__.py
 │
 ├── static/
 ├── manage.py
@@ -66,7 +75,6 @@ projectname/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-```
 ```
 
 ---
@@ -99,27 +107,33 @@ projectname/
 git clone https://github.com/AnushaPolagani/member-management-system.git
 ```
 
+### Navigate to Project
+
+```bash
+cd member-management-system
+```
+
 ### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Migrations
+### Apply Migrations
 
 ```bash
 python manage.py migrate
 ```
 
-### Start Development Server
+### Run Development Server
 
 ```bash
 python manage.py runserver
 ```
 
-Open:
+Open your browser and visit:
 
-```
+```text
 http://127.0.0.1:8000/
 ```
 
@@ -158,11 +172,11 @@ B.Tech – Artificial Intelligence & Machine Learning
 
 Aspiring Full Stack Developer
 
-GitHub:
+**GitHub:**  
 https://github.com/AnushaPolagani
 
-LinkedIn:
-https://www.linkedin.com/in/anusha-polagani-305798353?utm_source=share_via&utm_content=profile&utm_medium=member_android
+**LinkedIn:**  
+https://www.linkedin.com/in/anusha-polagani-305798353
 
 ---
 
@@ -172,4 +186,4 @@ This project is created for educational, internship, and portfolio purposes.
 
 ---
 
-⭐ If you found this project helpful, consider giving it a Star on GitHub.
+⭐ If you found this project helpful, consider giving it a **Star** on GitHub.
