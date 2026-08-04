@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Django](https://img.shields.io/badge/Django-Framework-green)
+![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
+
 # 👥 Member Management System
 
 A Django-based CRUD web application developed during my Summer Internship to manage member records efficiently. The application allows users to add, view, update, and manage member information while preventing duplicate entries using server-side validation.
@@ -43,15 +47,26 @@ This project demonstrates Django fundamentals including models, forms, views, te
 ## 📂 Project Structure
 
 ```text
-Member_Management_System/
+projectname/
 │
 ├── Member_Management_System/
 ├── member_management/
-├── screenshots/
+│   ├── migrations/
+│   ├── screenshots/
+│   ├── templates/
+│   ├── admin.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── urls.py
+│   └── views.py
+│
+├── static/
 ├── manage.py
 ├── db.sqlite3
+├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 ```
 
 ---
@@ -87,7 +102,7 @@ git clone https://github.com/AnushaPolagani/member-management-system.git
 ### Install Dependencies
 
 ```bash
-pip install django
+pip install -r requirements.txt
 ```
 
 ### Run Migrations
@@ -147,7 +162,7 @@ GitHub:
 https://github.com/AnushaPolagani
 
 LinkedIn:
-(Add your LinkedIn profile link here)
+https://www.linkedin.com/in/anusha-polagani-305798353?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ---
 
