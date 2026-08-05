@@ -27,8 +27,8 @@ This project demonstrates Django fundamentals including models, forms, views, te
 ## 🛠️ Tech Stack
 
 ### Backend
-- Python
-- Django
+- Python 3.14
+- Django 6
 
 ### Database
 - SQLite3
@@ -41,7 +41,6 @@ This project demonstrates Django fundamentals including models, forms, views, te
 - Git
 - GitHub
 - VS Code
-
 ---
 
 ## 📂 Project Structure
